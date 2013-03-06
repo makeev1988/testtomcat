@@ -1,9 +1,13 @@
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.sql.DataSource;
 import java.io.IOException;
+import java.sql.SQLException;
 
 /**
  * Created with IntelliJ IDEA.
@@ -16,11 +20,30 @@ import java.io.IOException;
 @WebServlet( name = "SimpleServlet", urlPatterns = {"/simple"} )
 
 public class ServletGuestBook extends HttpServlet {
-    GuestBook guestBook = GuestBook.getGuestBook();
+    GuestBook guestBook;
+
+
+    @Resource(name = "jdbc_testDS")
+    private DataSource ds;
+
+    @PostConstruct
+    public void init(){
+        try {
+            guestBook = new GuestBook(ds);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 
     @Override
     protected void doGet (HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setAttribute("ListRecords", guestBook.getRecords());
+        try {
+            req.setAttribute("ListRecords", guestBook.getRecords());
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         req.getRequestDispatcher("WEB-INF/test.jsp").forward(req, resp);
     }
 
@@ -28,7 +51,11 @@ public class ServletGuestBook extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String message = "";
         message = req.getParameter("textfield");
-        guestBook.addRecord(message);
+        try {
+            guestBook.addRecord(message);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         doGet(req, resp);
     }
 }

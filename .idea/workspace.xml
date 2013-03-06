@@ -4,7 +4,7 @@
     <list default="true" id="3793f83a-a0a6-4c16-816e-3619ae4c7421" name="Default" comment="" />
     <ignored path="testtomcat.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/web.xml" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362209695515" ignored="false" />
+    <file path="/web.xml" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362572107062" ignored="false" />
     <file path="/pom.xml" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362212474000" ignored="false" />
     <file path="/SimpleServlet.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362210900238" ignored="false" />
     <file path="/Hello.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362413933514" ignored="false" />
@@ -12,11 +12,12 @@
     <file path="/fragment.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362412012667" ignored="false" />
     <file path="/GuesBook.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362291437953" ignored="false" />
     <file path="/Record.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362405698642" ignored="false" />
-    <file path="/GuestBook.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362553066732" ignored="false" />
+    <file path="/GuestBook.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362573972450" ignored="false" />
     <file path="/Test.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362556386844" ignored="false" />
     <file path="/Test222.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362408939815" ignored="false" />
     <file path="/ttt.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362409682191" ignored="false" />
     <file path="/index.jsp" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362462127887" ignored="false" />
+    <file path="/ServletGuestBook.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362573470328" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,34 +88,36 @@
       <file leaf-file-name="ServletGuestBook.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ServletGuestBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="62" selection-start="729" selection-end="825" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="38" column="0" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuestBook.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GuestBook.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GuestBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="43" selection-start="633" selection-end="633" vertical-scroll-proportion="0.4744186">
+            <state line="16" column="1" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+            <state line="15" column="47" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="test.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="21" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
+            <state line="14" column="68" selection-start="412" selection-end="424" vertical-scroll-proportion="0.36899224">
               <folding />
             </state>
           </provider>
@@ -139,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SimpleServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Hellow.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -148,10 +150,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Record.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Test/ttt.java" />
         <option value="$PROJECT_DIR$/src/main/java/Hello.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ServletGuestBook.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ServletGuestBook.java" />
         <option value="$PROJECT_DIR$/src/main/java/GuestBook.java" />
       </list>
     </option>
@@ -243,6 +246,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="testtomcat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testtomcat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testtomcat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testtomcat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testtomcat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -522,10 +573,10 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1670224" sideWeight="0.60045147" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11259338" sideWeight="0.7573363" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.60045147" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24266365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14247599" sideWeight="0.7573363" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24266365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="91" y="91" width="1738" height="850" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -594,13 +645,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="47" selection-start="295" selection-end="313" vertical-scroll-proportion="0.0">
@@ -642,21 +686,23 @@
         <state line="21" column="19" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-8.4" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testtomcat.iml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.052713178">
+        <state line="12" column="36" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_11/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="401" selection-end="401" vertical-scroll-proportion="0.21085271" />
+        <state line="147" column="17" selection-start="5997" selection-end="5997" vertical-scroll-proportion="0.33293977">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
+        <state line="19" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.35581395">
           <folding />
         </state>
       </provider>
@@ -668,30 +714,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="21" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+        <state line="15" column="47" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ServletGuestBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="62" selection-start="729" selection-end="825" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="38" column="0" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GuestBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="43" selection-start="633" selection-end="633" vertical-scroll-proportion="0.4744186">
+        <state line="16" column="1" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="68" selection-start="412" selection-end="424" vertical-scroll-proportion="0.36899224">
           <folding />
         </state>
       </provider>

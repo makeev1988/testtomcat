@@ -1,3 +1,5 @@
+import javax.sql.DataSource;
+import java.sql.*;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -9,20 +11,46 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public class GuestBook {
-    private GuestBook(){}
+//    private Connection connection;
 
-    static private GuestBook guestBookInstance = new GuestBook();
-    static private LinkedList<String> listRecords = new LinkedList<>();
+    private DataSource ds;
 
-    static GuestBook getGuestBook(){
-        return  guestBookInstance;
+    GuestBook(DataSource dataSource) throws ClassNotFoundException, SQLException {
+        ds = dataSource;
+        try (Connection connection = ds.getConnection()){
+            Statement stat = connection.createStatement();
+            stat.execute(
+                    "CREATE TABLE posts (" +
+                            "id INT NOT NULL AUTO_INCREMENT," +
+                            "postMessage VARCHAR(255)," +
+                            "PRIMARY KEY (id)" +
+                            ")");
+        }
     }
 
-    public synchronized void addRecord(String s){
-    listRecords.add(0, s);
+   // static private LinkedList<String> listRecords = new LinkedList<>();
+
+    public synchronized void addRecord(String s) throws SQLException {
+        try (Connection connection = ds.getConnection()){
+            PreparedStatement prStat = connection.prepareStatement("INSERT INTO posts (postMessage) VALUES (?)");
+            prStat.setString(1, s);
+            prStat.executeUpdate();
+            //listRecords.add(0, s);
+        }
+
     }
 
-    public List getRecords(){
-        return new LinkedList(listRecords);
+    public List getRecords() throws SQLException {
+        List records = new LinkedList();
+
+        try (Connection connection = ds.getConnection()){
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("SELECT postMessage FROM posts");
+            while (resultSet.next()){
+                String message = resultSet.getString("postMessage");
+                records.add(0, message);
+            }
+            return records;
+        }
     }
 }
