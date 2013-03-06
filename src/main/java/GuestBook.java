@@ -23,6 +23,6 @@ public class GuestBook {
     }
 
     public List getRecords(){
-        return listRecords;
+        return new LinkedList(listRecords);
     }
 }

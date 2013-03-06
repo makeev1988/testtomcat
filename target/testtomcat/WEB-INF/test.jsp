@@ -22,9 +22,9 @@
 		<td>Сообщение:</td>
 	</tr>
 		<%
-            List testMessage2 = (List)request.getAttribute("ListRecords");
+            List listMessage = (List)request.getAttribute("ListRecords");
             int i = 1;
-		    for (Object s: testMessage2){
+		    for (Object s: listMessage){
                 out.println("<tr> <td>" + i + "</td> <td>" + s +"</td></tr>" );
                 i++;
             }
