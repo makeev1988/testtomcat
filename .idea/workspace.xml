@@ -17,7 +17,7 @@
     <file path="/Test222.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362408939815" ignored="false" />
     <file path="/ttt.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362409682191" ignored="false" />
     <file path="/index.jsp" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362462127887" ignored="false" />
-    <file path="/ServletGuestBook.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362573470328" ignored="false" />
+    <file path="/ServletGuestBook.java" changelist="3793f83a-a0a6-4c16-816e-3619ae4c7421" time="1362576682767" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <file leaf-file-name="ServletGuestBook.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ServletGuestBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
+            <state line="59" column="34" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuestBook.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GuestBook.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/GuestBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+            <state line="42" column="87" selection-start="1432" selection-end="1461" vertical-scroll-proportion="0.60465115">
               <folding />
             </state>
           </provider>
@@ -114,10 +114,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="68" selection-start="412" selection-end="424" vertical-scroll-proportion="0.36899224">
+            <state line="7" column="84" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -154,8 +163,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ServletGuestBook.java" />
         <option value="$PROJECT_DIR$/src/main/java/GuestBook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ServletGuestBook.java" />
       </list>
     </option>
   </component>
@@ -349,7 +358,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_maven" />
@@ -700,16 +709,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.35581395">
+        <state line="3" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+        <state line="7" column="84" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -721,9 +730,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ServletGuestBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
+        <state line="59" column="34" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -732,14 +748,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GuestBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="68" selection-start="412" selection-end="424" vertical-scroll-proportion="0.36899224">
+        <state line="42" column="87" selection-start="1432" selection-end="1461" vertical-scroll-proportion="0.60465115">
           <folding />
         </state>
       </provider>
